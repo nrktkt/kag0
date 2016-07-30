@@ -1,0 +1,81 @@
+/*
+background (primary) #212121
+background (layer) #424242
+text #F5F5F5
+secondary light #FAFAFA
+secondary dark #9E9E9E
+text #FAFAFA
+accent #4CAF50
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+@font-face {
+	font-family: Terminus;
+	src: url(../fonts/TerminusTTF-4.40.1.ttf);
+}
+
+
+body {
+	margin: 0 auto;
+	max-width: 50em;
+	font-family: "Inconsolata", sans-serif;
+	line-height: 1.5;
+	padding: 4em 1em;
+	color: #F5F5F5;
+	background-color: #212121;
+}
+
+h1,
+h2,
+strong {
+	color: #FAFAFA;
+}
+
+h1 {
+	font-size: 1.75em;
+}
+
+h2 {
+	margin-top: 1em;
+	padding-top: 1em;
+}
+
+code,
+pre {
+	background: #424242;
+	border-bottom: #9E9E9E;
+	font-family: "Terminus", monospace;
+	font-size: 90%;
+	-webkit-font-smoothing: antialiased;
+}
+
+code {
+	padding: 2px 4px;
+}
+
+pre {
+	padding: 1em;
+	border-left: 3px solid #4CAF50;
+	overflow: auto;
+	word-break: normal !important;
+    word-wrap: normal !important;
+}
+
+a, var {
+	color: #4CAF50;
+}
+
+hr {
+	border-color: #4CAF50;
+}
+
+mark {
+	background-color: #76FF03;
+	color: black;
+}
+
+blockquote {
+	background: #424242;
+	border-left: .5em solid #4CAF50;
+	padding: 1em;
+}
